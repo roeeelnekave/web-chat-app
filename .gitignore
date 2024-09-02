@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Configuration files
+config.xml
+credentials.xml
+secret.key
+secret.key.not-so-secret
+identity.key.enc
+
+# Build and deployment files
+*.war
+
+# Jenkins
+jenkins.install.*
+jenkins.model.*
+jenkins.telemetry.*
+hudson.model.*
+hudson.plugins.*
+*.xml
+
+# Temporary and backup files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Environment files
+.env
+users
+war
+.last*
+.owner
+
+# Miscellaneous
+
+*.xml
+
+
+# Exclude all files in these directories
+plugins/
+userContent/
+updates/
+secrets/
+my*sed.js
+
+# Exclude generated files and directories
