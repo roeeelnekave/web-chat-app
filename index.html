@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Data Streaming Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header>
+        <h1 class="animated-text">Data Streaming Dashboard</h1>
+    </header>
+    
+    <main>
+        <section id="data-form" class="animated-section card">
+            <h2 class="section-title"><i class="fas fa-pencil-alt"></i> Input Data</h2>
+            <form id="streaming-form">
+                <div class="input-group">
+                    <input type="text" id="data-input" name="data-input" required>
+                    <label for="data-input">Enter data</label>
+                    <span class="input-highlight"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Submit</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </section>
+
+        <section id="data-display" class="animated-section card">
+            <h2 class="section-title"><i class="fas fa-stream"></i> Data Stream</h2>
+            <div id="stream-container"></div>
+        </section>
+
+        <section id="not-found" class="animated-section card">
+            <div id="title" class="animated-text">404 Error</div>
+            <div class="circles">
+              <p>404<br>
+               <small>PAGE NOT FOUND</small>
+              </p>
+              <span class="circle big"></span>
+              <span class="circle med"></span>
+              <span class="circle small"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="animated-text">&copy; 2024 Data Streaming Dashboard</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
